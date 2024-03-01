@@ -1,5 +1,6 @@
 # Task One: Single Web Infrastructure Design
-# https://imgur.com/gallery/2HFXhrx
+### Link to image
+https://imgur.com/gallery/2HFXhrx
 
 ## Components and Functions
 
