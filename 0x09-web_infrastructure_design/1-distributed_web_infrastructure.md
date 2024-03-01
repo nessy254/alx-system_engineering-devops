@@ -1,5 +1,6 @@
 # Task Two: Distributed Setup with Redundancy
-# https://imgur.com/a/YMglqyQ
+###Link to image
+https://imgur.com/a/YMglqyQ
 
 
 ## Infrastructure Design

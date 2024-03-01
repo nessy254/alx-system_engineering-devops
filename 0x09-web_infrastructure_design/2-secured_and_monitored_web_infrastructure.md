@@ -1,5 +1,6 @@
 # Task Three: Secure and Monitored Web Infrastructure
-# https://imgur.com/vR6a6Gy
+### Link to image:
+https://imgur.com/vR6a6Gy
 
 ## Key Components for Enhancement
 
