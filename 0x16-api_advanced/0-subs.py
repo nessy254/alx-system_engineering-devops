@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Function that queries the Reddit API and returns the number of
-subscribers for a given subreddit.
+isubscribers for a given subreddit.
 If an invalid subreddit is given, the function should return 0
 """
 
@@ -15,7 +15,7 @@ def number_of_subscribers(subreddit):
     """
     req = requests.get(
         "https://www.reddit.com/r/{}/about.json".format(subreddit),
-        headers={"User-Agent": "Custom"},
+        headers={"User-Agent": "Google Chrome Version 98.0.4758.102"},
     )
 
     if req.status_code == 200:
