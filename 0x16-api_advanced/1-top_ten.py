@@ -7,10 +7,9 @@ import requests
 
 
 def top_ten(subreddit):
-    """function that queries the Reddit API and prints the titles of the
-    first 10 hot posts listed for a given subreddit."""
+    """Prints the first 10 hot posts on a given Reddit subreddit."""
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
-    headers = {'User-Agent': 'Google Chrome Version 120.0.6099.217'}
+    headers = {'User-Agent': 'Google Chrome Version 98.0.4758.102'}
     params = {'limit': 10}
     response = requests.get(url, headers=headers, params=params,
                             allow_redirects=False)
